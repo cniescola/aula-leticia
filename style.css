@@ -21,15 +21,66 @@ header #areaH nav {
     width: 100%;
     height: 70px;
     background-color: #2a2f45;
+    position: relative;
 }
 
 header #areaH nav #list {
     display: flex;
     justify-content: end;
     flex-direction: row;
+    align-items: center;
+    height: 100%;
 }
 
 header #areaH nav #list ul {
     display: flex;
     flex-direction: row;
+}
+
+header #areaH nav #list ul li{
+    list-style: none;
+    margin-right: 40px;
+}
+
+header #areaH nav #list ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+header #areaH nav #quadverm{
+    width: 270px;
+    height: 115px;
+    background-color: #b93a41;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header #areaH nav #quadverm #borda{
+height: 80%;
+width: 90%;
+border: 1px solid rgba(255, 255, 255, 0.37);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+header #areaH nav #quadverm #borda h1, 
+header #areaH nav #quadverm #borda h2{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+header #areaH nav #quadverm #borda h1{
+
+}
+
+header #areaH nav #quadverm #borda h2{
+
 }
