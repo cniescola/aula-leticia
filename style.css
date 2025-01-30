@@ -118,5 +118,71 @@ header #areaH #list ul li a span:nth-child(2){
 main{
     width: 100%;
     height: 100vh;
-    background-image: url("bgjpg.");
+    background-image: url("bg.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main #sec1 #cima{
+    font-weight: 900;
+    font-style: normal;
+    font-family: 'Passion One', sans-serif;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -40px;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+main:hover #sec1 #cima{
+    margin-top: 0px;
+    opacity: 1;
+}
+
+main #sec1{
+    padding:0 150px;
+}
+
+main #sec1 #baixo{
+    font-weight: 700;
+    font-family: 'Passion One', sans-serif;
+    color: white;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+    position: relative;
+    opacity: 0;
+    transition: 0.3s;
+   
+}
+
+main:hover #sec1 #baixo{
+    margin-top: 40px;
+    opacity: 1;
+}
+
+main #sec1 #baixo span{
+    width: 150px;
+    height: 0.5px;
+    background-color: white;
+    position: absolute;
+}
+
+main #sec1 #baixo span:nth-child(1){
+    left: 0;
+}
+
+main #sec1 #baixo span:nth-child(2){
+   right: 0;
 }
